@@ -4,8 +4,8 @@ var myintro = 'Hello Welcome to my JS Page';
 var linktag = '<a href=\'http://scripttheweb.com\'>Link to Site</a>';
 var redtext = '<span style=\'color:red\'>I am so colorful today!</span>';
 
-var begineffect = '<strong>';
-var endeffect = '</strong>'; 
+var begineffect = '<em>';
+var endeffect = '</em>'; 
 var beginpara= '<p>';
 var endpara = '</p>'; 
 
