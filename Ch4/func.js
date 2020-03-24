@@ -14,3 +14,7 @@ function getaddedtxt() {
 }
 getaddedtxt()
  
+function send_alert() {
+    window.alert('this cmae'); 
+}
+send_alert();
