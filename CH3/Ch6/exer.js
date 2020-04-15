@@ -48,15 +48,48 @@
 // }
 
 
-let name = 'freddie';
-switch (name) {
-    case 'fred':
-        window.alert('your name is fred') //fall through
-    case 'fredrick': //fall through
-    case 'freddie': 
-        window.alert('any version of fred is a cool name');
-        break;
-    default :
-        window.alert('i have not heard that name before');
+// let name = 'freddie';
+// switch (name) {
+//     case 'fred':
+//         window.alert('your name is fred') //fall through
+//     case 'fredrick': //fall through
+//     case 'freddie': 
+//         window.alert('any version of fred is a cool name');
+//         break;
+//     default :
+//         window.alert('i have not heard that name before');
         
+// }
+
+
+// let num1 = 17;
+// switch(true) {
+//     case (num1< 20) :
+//         window.alert('the number is less than 20');
+//         break;
+//     case ( (num1 >= 20) && (num1 <= 100) ) :
+//         break; 
+//     default :
+//         window.alert('the number is negative or more than 100');
+// }\
+
+// let mynum = 1,
+//     mymessage = " ";
+// if (mynum === 1) {
+//     mymessage = 'you win';
+// }
+// else {
+//     mymessage = 'sorry! try again';
+// }
+
+// let mynum = 1;
+//     mymessage = "   ";
+// mymessage = (mynum === 1) ? "you win!" : "sorry try again"; 
+
+let username = window.prompt('give me your name:', '  '); 
+if ( (username === null) || (username === "" ) ) {
+    document.write('hello, random namless person');
+}
+else {
+    document.write('hello, ' + username + "!");
 }
