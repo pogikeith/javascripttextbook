@@ -25,4 +25,6 @@
 for (let i = 25, j = 10;  i < 11; i++, j+=10) {
     document.write(j + '<br>'); 
 
-}
+} 
+
+document.write('get ready for repeated text')
