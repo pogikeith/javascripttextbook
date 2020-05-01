@@ -22,9 +22,24 @@
 // }
 
 
-for (let i = 25, j = 10;  i < 11; i++, j+=10) {
-    document.write(j + '<br>'); 
+// for (let i = 25, j = 10;  i < 11; i++, j+=10) {
+//     document.write(j + '<br>'); 
 
-} 
+// } 
 
-document.write('get ready for repeated text')
+// document.write('get ready for repeated text')
+
+// document.write('get ready for repeated text, <br>'); 
+// let count = 1;
+// while (count < 11) {
+//     document.write(count + " . I am part of the loop!<br>"); 
+//     count+=2;
+// }
+// document.write('now we are back to plain text<br>'); 
+
+let count = 11;
+do {
+    document.write('hi! ');
+    count++; 
+}
+while (count < 10);
