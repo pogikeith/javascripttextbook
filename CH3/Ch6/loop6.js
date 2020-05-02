@@ -37,9 +37,20 @@
 // }
 // document.write('now we are back to plain text<br>'); 
 
-let count = 11;
-do {
-    document.write('hi! ');
-    count++; 
+// let count = 11;
+// do {
+//     document.write('hi! ');
+//     count++; 
+// }
+// while (count < 10);
+
+let stopnumber = 5; 
+for (let num =1; num < 11; num ++) {
+    if (num === stopnumber) {
+        document.write('sorry loop stops here<br>')
+    }
+
+else {
+    document.write(num + 'i am part of a loop<br>');
+  }
 }
-while (count < 10);
