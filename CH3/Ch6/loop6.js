@@ -56,13 +56,3 @@ else {
 
 
 
-let stopnumber = 5; 
-for (let num =1; num < 11; num ++) {
-    if (num === stopnumber) {
-        document.write('sorry loop stops here<br>')
-    }
-
-else {
-    document.write(num + 'i am part of a loop<br>');
-  }
-}
